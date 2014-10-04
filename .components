@@ -1,0 +1,9 @@
+---
+:orm: activerecord
+:test: minitest
+:mock: none
+:script: jquery
+:renderer: erb
+:stylesheet: scss
+:namespace: Seihei
+:migration_format: number
