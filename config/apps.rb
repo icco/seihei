@@ -27,10 +27,9 @@
 #
 Padrino.configure_apps do
   # enable :sessions
-  set :session_secret, '26dc8682e8176856a75651a67d5f2e3977fd7941d45839e71b1e4c895ee8c6ab'
+  set :session_secret, 'b428c79d737ecae4e88066c189180d3acc9288fd0dc313dc11cdd558229e7fb9'
   set :protection, :except => :path_traversal
   set :protect_from_csrf, true
 end
 
 # Mounts the core application for this project
-Padrino.mount('Seihei::App', :app_file => Padrino.root('app/app.rb')).to('/')
