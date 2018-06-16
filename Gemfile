@@ -16,15 +16,15 @@ gem 'rake'
 # Component requirements
 gem 'sass'
 gem 'erubis', '~> 2.7.0'
-gem 'activerecord', '>= 3.1', :require => 'active_record'
+gem 'activerecord', '>= 4.2.7.1'
 gem 'pg'
 
 # Test requirements
 gem 'minitest', :require => 'minitest/autorun', :group => 'test'
-gem 'rack-test', :require => 'rack/test', :group => 'test'
+gem 'rack-test', '>= 0.6.3'
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.3'
+gem 'padrino', '0.12.9'
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
